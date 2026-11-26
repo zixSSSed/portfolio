@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Заголовок и описание главной. На остальных страницах их меняет src/lib/seo.js -->
+    <title>27 Barbershop в Северном Бутове: мужские стрижки на Куликовской, 6</title>
+    <meta
+      name="description"
+      content="Барбершоп 27 Barbershop у метро «Бульвар Дмитрия Донского»: мужская стрижка от 1 000 ₽, борода, бритьё. Каждый день с 10:00 до 22:00. Запишитесь онлайн, ответим за 2 часа."
+    />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href="https://example.ru/" />
+    <meta name="theme-color" content="#eef1f3" />
+    <link rel="icon" href="/demo/barber/favicon.svg" type="image/svg+xml" />
+
+    <!-- Превью для соцсетей и мессенджеров -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+    <meta property="og:site_name" content="27 Barbershop, Северное Бутово" />
+    <meta property="og:title" content="27 Barbershop в Северном Бутове: мужские стрижки и борода" />
+    <meta
+      property="og:description"
+      content="Стрижём так, как вы попросили. Куликовская, 6, ТЦ «Алфавит», метро «Бульвар Дмитрия Донского». Каждый день с 10:00 до 22:00."
+    />
+    <meta property="og:url" content="https://example.ru/" />
+    <meta property="og:image" content="https://example.ru/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ножницы на белой плитке и надпись «Стрижём так, как вы попросили»" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="27 Barbershop в Северном Бутове: мужские стрижки и борода" />
+    <meta
+      name="twitter:description"
+      content="Стрижём так, как вы попросили. Куликовская, 6, метро «Бульвар Дмитрия Донского»."
+    />
+    <meta name="twitter:image" content="https://example.ru/og-image.jpg" />
+
+    <!-- Шрифты лежат вместе с сайтом (подключены в src/main.jsx): сайт не зависит от Google Fonts -->
+    <link rel="preload" as="image" href="/demo/barber/img/scissors-a.webp" />
+    <link rel="preload" as="image" href="/demo/barber/img/scissors-b.webp" />
+
+    <!-- Разметка для поисковиков: карточка организации (адрес, часы, телефон) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HairSalon",
+        "name": "27 Barbershop",
+        "url": "https://example.ru/",
+        "image": "https://example.ru/og-image.jpg",
+        "telephone": "+7 936 333-27-27",
+        "priceRange": "300–5000 ₽",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Куликовская улица, 6",
+          "addressLocality": "Москва",
+          "postalCode": "117628",
+          "addressCountry": "RU"
+        },
+        "geo": { "@type": "GeoCoordinates", "latitude": 55.574231, "longitude": 37.565574 },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "10:00",
+          "closes": "22:00"
+        },
+        "sameAs": [
+          "https://yandex.ru/maps/org/27barbershop/110933257218/",
+          "https://2gis.ru/moscow/firm/70000001032126055",
+          "https://www.instagram.com/27barbershop/",
+          "https://t.me/twentysevenbarbershop"
+        ]
+      }
+    </script>
+    <script type="module" crossorigin src="/demo/barber/assets/index-BQUQYVH0.js"></script>
+    <link rel="stylesheet" crossorigin href="/demo/barber/assets/index-AdZPw5CQ.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      27 Barbershop, Москва, Куликовская улица, 6. ТЦ «Алфавит», цокольный этаж. Телефон +7 936 333-27-27. Каждый день с 10:00 до 22:00.
+    </noscript>
+    <script>
+      // Файл открыли двойным щелчком с диска: без локального сервера сайт не запустится. Говорим, что делать.
+      if (location.protocol === "file:") {
+        document.getElementById("root").innerHTML =
+          '<div style="max-width:560px;margin:14vh auto;padding:0 24px;font:18px/1.5 system-ui,sans-serif;color:#15171b">' +
+          '<h1 style="font-size:28px;margin:0 0 12px">Макет открывается иначе</h1>' +
+          "<p>Этот файл нельзя открыть двойным щелчком: сайту нужен локальный сервер.</p>" +
+          "<p>Запустите <b>run.bat</b> в этой же папке. Он сам откроет сайт в браузере.</p></div>";
+      }
+    </script>
+  </body>
+</html>
